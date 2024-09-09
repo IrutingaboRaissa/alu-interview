@@ -33,4 +33,3 @@ def small_prime(n):
             result = i
             break
     return result
-
