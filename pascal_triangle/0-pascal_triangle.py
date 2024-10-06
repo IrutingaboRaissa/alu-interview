@@ -11,7 +11,6 @@ def pascal_triangle(n):
     and technical to write
     """
     
-    
     list_of_list = []
     if n <= 0:
         return list_of_list
