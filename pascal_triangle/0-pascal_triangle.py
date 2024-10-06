@@ -21,7 +21,7 @@ def pascal_triangle(n):
         else:
             for i in range(n):
                 if i == 0:
-                    list2 = [1] 
+                    list2 = [1]
                     list_of_list.append(list2)
                 else:
                     list3 = list_of_list[i - 1]
@@ -34,4 +34,4 @@ def pascal_triangle(n):
                         else:
                             list4.append(list3[j - 1] + 0)
                     list_of_list.append(list4)
-    return list_of_list
+    return list_of_list 
