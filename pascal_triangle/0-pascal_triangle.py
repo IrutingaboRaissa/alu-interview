@@ -10,7 +10,6 @@ def pascal_triangle(n):
     pascal triangle it was beautiful
     and technical to write
     """
-    
     list_of_list = []
     if n <= 0:
         return list_of_list
@@ -35,4 +34,4 @@ def pascal_triangle(n):
                         else:
                             list4.append(list3[j - 1] + 0)
                     list_of_list.append(list4)
-    return list_of_list
+    return list_of_list 
