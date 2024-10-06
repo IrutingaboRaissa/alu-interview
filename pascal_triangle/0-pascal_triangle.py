@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 12-pascal_triangle.py
 """A python script that
-doe the pascal triangle
+does the pascal triangle
 """
 
 
@@ -10,6 +10,8 @@ def pascal_triangle(n):
     pascal triangle it was beautiful
     and technical to write
     """
+    
+    
     list_of_list = []
     if n <= 0:
         return list_of_list
