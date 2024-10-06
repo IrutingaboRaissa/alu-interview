@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # 12-pascal_triangle.py
 """A python script that
-doe the pascal triangle
+does the pascal triangle
 """
 
 
